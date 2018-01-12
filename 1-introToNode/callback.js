@@ -21,6 +21,9 @@ var handleResults = function (err, results, time) {
     }
 }
 
-evenDoubler(2, handleResults);
+for(var i=0;i <10;i++) {
+    console.log("Calling even doubler for i : " + i);
+    evenDoubler(i, handleResults);
+}
 
 console.log("----------------------")
