@@ -2,3 +2,8 @@ workspace.xml
 
 CHANGELOG.md
 
+node_modules/*
+
+.idea/
+
+lib/*
